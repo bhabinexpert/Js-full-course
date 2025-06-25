@@ -31,3 +31,6 @@ sayHi.call(user3,"MCT", 2025) // the first parameterr should be the object calli
 sayHi.call(user4, "Vada", 2025)
 
 // sayHi.apply(user1,["hons-computing", 2025]) same as .call methods
+
+const result = sayHi.bind(user3, "Computing")
+result(2025)
