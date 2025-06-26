@@ -361,3 +361,4 @@ function showQuestion(quizData) {
   }
 }
 showQuestion(quizData);
+console.log(`\nYour final Score is ${score}`)
